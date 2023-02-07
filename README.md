@@ -19,3 +19,4 @@ $ foundryup
 
 - **VSCode Setup**: https://book.getfoundry.sh/config/vscode
 - **Foundry Guide**: https://docs.moonbeam.network/builders/build/eth-api/dev-env/foundry/
+- **Cheatsheet**: https://github.com/dabit3/foundry-cheatsheet

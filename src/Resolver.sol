@@ -2,9 +2,10 @@
 pragma solidity ^0.8.17;
 
 import "openzeppelin-contracts/contracts/token/ERC721/IERC721.sol";
+import "openzeppelin-contracts/contracts/access/Ownable.sol";
 
-contract Resolver {
-    mapping (uint256 => string) map;
+contract Resolver is Ownable {
+    mapping(uint256 => string) map;
     string fallbackUrl = "https://protocol.beb.xyz/graphql";
     IERC721 bebContract = IERC721(0x0F08FC2A63F4BfcDDfDa5c38e9896220d5468a64);
 
@@ -22,6 +23,20 @@ contract Resolver {
     }
 
     function setFallbackUrl(string memory _fallbackUrl) external {
+        require(msg.sender == owner(), "only owner can set fallback url");
         fallbackUrl = _fallbackUrl;
+    }
+
+    function setBebContract(address _bebContract) external {
+        require(msg.sender == owner(), "only owner can set beb contract");
+        bebContract = IERC721(_bebContract);
+    }
+
+    function getFallbackUrl() external view returns (string memory) {
+        return fallbackUrl;
+    }
+
+    function getBebContract() external view returns (address) {
+        return address(bebContract);
     }
 }
