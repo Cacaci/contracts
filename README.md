@@ -1,5 +1,7 @@
 # BEBverse Foundry Contracts
 
+<img src="https://i.imgur.com/4GgGyWY.png" width="300" />
+
 ## Contribution Guidelines
 
 The **bebverse/contracts** repo follows the [conventional commits guidelines](https://www.conventionalcommits.org/en/v1.0.0/#summary), please be sure to respect them when committing.
