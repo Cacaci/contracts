@@ -10,9 +10,8 @@ contract Resolver is Ownable {
     IERC721 bebContract = IERC721(0x0F08FC2A63F4BfcDDfDa5c38e9896220d5468a64);
 
     function set(uint256 tokenId, string memory _value) external {
-        if (bebContract.ownerOf(tokenId) == msg.sender) {
-            map[tokenId] = _value;
-        }
+        require(bebContract.ownerOf(tokenId) == msg.sender, "only owner of tokenId can set");
+        map[tokenId] = _value;
     }
 
     function get(uint256 tokenId) external view returns (string memory) {
