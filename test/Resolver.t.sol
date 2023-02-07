@@ -11,14 +11,4 @@ contract ResolverTest is Test {
         resolver = new Resolver();
         resolver.set(0, "hello");
     }
-
-    // function testIncrement() public {
-    //     resolver.increment();
-    //     assertEq(resolver.number(), 1);
-    // }
-
-    // function testSetNumber(uint256 x) public {
-    //     resolver.setNumber(x);
-    //     assertEq(resolver.number(), x);
-    // }
 }
