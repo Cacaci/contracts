@@ -1,6 +1,9 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
 
+// Deployments:
+// Goerli: 0x2167A15c97fE3A28c0eebfA23a3368974A2b64E5
+
 import "openzeppelin-contracts/contracts/token/ERC721/IERC721.sol";
 import "openzeppelin-contracts/contracts/access/Ownable.sol";
 
