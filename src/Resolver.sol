@@ -11,7 +11,7 @@ import "openzeppelin-contracts/contracts/access/Ownable.sol";
 contract Resolver is Ownable {
     mapping(uint256 => string) map;
     string fallbackUrl = "https://protocol.beb.xyz/graphql";
-    IERC721 bebContract = IERC721(0x0F08FC2A63F4BfcDDfDa5c38e9896220d5468a64);
+    IERC721 bebContract = IERC721(0x427b8efee2d6453bb1c59849f164c867e4b2b376);
 
     function set(uint256 tokenId, string memory _value) external {
         require(bebContract.ownerOf(tokenId) == msg.sender, "only owner of tokenId can set");
