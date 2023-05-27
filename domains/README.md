@@ -1,6 +1,6 @@
 # `beb.domains` Details & Contract Deployment
 
-BEB Dimensions run on a heavily modified fork of ENS. The string names of domains are not stored on a contract level - token uri's are `sha3` hashes of the lowercase name after `.beb` has been removed.
+bebOS Dimensions run on a heavily modified fork of ENS. The string names of domains are not stored on a contract level - token uri's are `sha3` hashes of the lowercase name after `.beb` has been removed.
 
 To map a token uri to metadata, you query: `protocol.beb.xyz/metadata/uri/{uri}`, e.g. for [playground.beb](https://protocol.beb.xyz/metadata/uri/28351188642621241456184943762989329996148978531966429149720007640204744112723).
 
