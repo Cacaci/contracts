@@ -4,9 +4,9 @@
 
 ## Contribution Guidelines
 
-The **bebdomains/contracts** repo follows the [conventional commits guidelines](https://www.conventionalcommits.org/en/v1.0.0/#summary), please be sure to respect them when committing.
+The **bebprotocol/contracts** repo follows the [conventional commits guidelines](https://www.conventionalcommits.org/en/v1.0.0/#summary), please be sure to respect them when committing.
 
-When opening a Pull Request and you are not already a core contributor to [@bebdomains](https://github.com/bebdomains), be sure to explain your pull request in greater detail so there's less churn when reviewing and we can get your changes landed ASAP, thank you!
+When opening a Pull Request and you are not already a core contributor to [@bebprotocol](https://github.com/bebprotocol), be sure to explain your pull request in greater detail so there's less churn when reviewing and we can get your changes landed ASAP, thank you!
 
 ### Setup
 

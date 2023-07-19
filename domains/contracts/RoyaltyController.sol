@@ -1,6 +1,6 @@
 /////////
 // bebOS Labs
-// https://beb.domains
+// https://beb.quest
 // SPDX-License-Identifier: UNLICENSED
 //////////////////
 
