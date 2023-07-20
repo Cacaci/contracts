@@ -1,6 +1,6 @@
 # `beb.quest` Details & Contract Deployment
 
-See the `contracts/` folder for more details on how bebOS Dimensions work.
+See the `contracts/` folder for more details on how beb.quest Dimensions work.
 
 String names of domains are not stored on a contract level - token uri's are `sha3` hashes of the lowercase name after `.beb` has been removed.
 
