@@ -2,12 +2,17 @@
 
 See the `contracts/` folder for more details on how beb.quest Dimensions work.
 
-String names of domains are not stored on a contract level - token uri's are `sha3` hashes of the lowercase name after `.beb` has been removed.
+String names of domains are not stored on a contract level - token uri's are
+`sha3` hashes of the lowercase name after `.beb` has been removed.
 
-To map a token uri to metadata, you query: `protocol.beb.xyz/metadata/uri/{uri}`, e.g. for [playground.beb](https://protocol.beb.xyz/metadata/uri/28351188642621241456184943762989329996148978531966429149720007640204744112723).
+To map a token uri to metadata, you query:
+`protocol.beb.quest/metadata/uri/{uri}`, e.g. for
+[playground.beb](https://protocol.beb.quest/metadata/uri/28351188642621241456184943762989329996148978531966429149720007640204744112723).
 
 See this folder for the applicable ABIs for [beb.quest](https://beb.quest).
 
-- **BaseRegistrar** deployed to: `0x427b8efEe2d6453Bb1c59849F164C867e4b2B376` (bebdomains.eth)
+- **BaseRegistrar** deployed to: `0x427b8efEe2d6453Bb1c59849F164C867e4b2B376`
+  (bebdomains.eth)
   - Base Registar = `.beb` TLD.
-- **BebRegistryBetaController** deployed to: `0x0F08FC2A63F4BfcDDfDa5c38e9896220d5468a64`
+- **BebRegistryBetaController** deployed to:
+  `0x0F08FC2A63F4BfcDDfDa5c38e9896220d5468a64`

@@ -45,7 +45,7 @@ contract ResolverTest is Test {
         vm.startPrank(alice);
         vm.expectRevert("only owner can set fallback url");
         resolver.setFallbackUrl("https://alice.com");
-        assertTrue(keccak256(bytes(resolver.getFallbackUrl())) == keccak256(bytes("https://protocol.beb.xyz/graphql")));
+        assertTrue(keccak256(bytes(resolver.getFallbackUrl())) == keccak256(bytes("https://protocol.beb.quest/graphql")));
         vm.stopPrank();
         vm.startPrank(bob);
         resolver.setFallbackUrl("https://bob.com");
@@ -56,7 +56,7 @@ contract ResolverTest is Test {
         vm.startPrank(alice);
         vm.expectRevert("only owner of tokenId can set");
         resolver.set(1, "https://alice.com");
-        assertTrue(keccak256(bytes(resolver.get(1))) == keccak256(bytes("https://protocol.beb.xyz/graphql")));
+        assertTrue(keccak256(bytes(resolver.get(1))) == keccak256(bytes("https://protocol.beb.quest/graphql")));
     }
 
     function testSet() public {
