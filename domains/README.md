@@ -3,11 +3,11 @@
 See the `contracts/` folder for more details on how cast.quest Dimensions work.
 
 String names of domains are not stored on a contract level - token uri's are
-`sha3` hashes of the lowercase name after `.beb` has been removed.
+`sha3` hashes of the lowercase name after `.beb`/`.cast` has been removed.
 
 To map a token uri to metadata, you query:
 `protocol.cast.quest/metadata/uri/{uri}`, e.g. for
-[playground.beb](https://protocol.cast.quest/metadata/uri/28351188642621241456184943762989329996148978531966429149720007640204744112723).
+[playground.cast](https://protocol.cast.quest/metadata/uri/28351188642621241456184943762989329996148978531966429149720007640204744112723).
 
 See this folder for the applicable ABIs for [cast.quest](https://cast.quest).
 
