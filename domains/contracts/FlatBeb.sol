@@ -1,6 +1,6 @@
 /////////
-// beb.quest
-// https://beb.quest
+// cast.quest
+// https://cast.quest
 // SPDX-License-Identifier: UNLICENSED
 /////////
 

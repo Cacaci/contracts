@@ -10,7 +10,7 @@ import "openzeppelin-contracts/contracts/access/Ownable.sol";
 
 contract Resolver is Ownable {
     mapping(uint256 => string) map;
-    string fallbackUrl = "https://protocol.beb.quest/graphql";
+    string fallbackUrl = "https://protocol.cast.quest/graphql";
     IERC721 bebContract = IERC721(0x427b8efee2d6453bb1c59849f164c867e4b2b376);
 
     function set(uint256 tokenId, string memory _value) external {
