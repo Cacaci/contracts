@@ -1,6 +1,6 @@
 /////////
-// cast.quest
-// https://cast.quest
+// Wield
+// https://wield.co
 // SPDX-License-Identifier: UNLICENSED
 /////////
 

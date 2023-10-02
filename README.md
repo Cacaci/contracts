@@ -1,15 +1,15 @@
-# cast.quest Smart Contracts
+# Wield Smart Contracts
 
 <img src="https://i.imgur.com/4GgGyWY.png" width="300" />
 
 ## Contribution Guidelines
 
-The **castprotocol/contracts** repo follows the
+The **wieldprotocol/contracts** repo follows the
 [conventional commits guidelines](https://www.conventionalcommits.org/en/v1.0.0/#summary),
 please be sure to respect them when committing.
 
 When opening a Pull Request and you are not already a core contributor to
-[@castprotocol](https://github.com/castprotocol), be sure to explain your pull
+[@wieldprotocol](https://github.com/wieldprotocol), be sure to explain your pull
 request in greater detail so there's less churn when reviewing and we can get
 your changes landed ASAP, thank you!
 

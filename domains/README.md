@@ -1,15 +1,15 @@
-# `cast.quest` Details & Contract Deployment
+# `Wield` Details & Contract Deployment
 
-See the `contracts/` folder for more details on how cast.quest Dimensions work.
+See the `contracts/` folder for more details on how Wield Dimensions work.
 
 String names of domains are not stored on a contract level - token uri's are
 `sha3` hashes of the lowercase name after `.beb`/`.cast` has been removed.
 
 To map a token uri to metadata, you query:
-`protocol.cast.quest/metadata/uri/{uri}`, e.g. for
-[playground.cast](https://protocol.cast.quest/metadata/uri/28351188642621241456184943762989329996148978531966429149720007640204744112723).
+`protocol.wield.co/metadata/uri/{uri}`, e.g. for
+[playground.cast](https://protocol.wield.co/metadata/uri/28351188642621241456184943762989329996148978531966429149720007640204744112723).
 
-See this folder for the applicable ABIs for [cast.quest](https://cast.quest).
+See this folder for the applicable ABIs for [Wield](https://wield.co).
 
 - **BaseRegistrar** deployed to: `0x427b8efEe2d6453Bb1c59849F164C867e4b2B376`
   (bebdomains.eth)
