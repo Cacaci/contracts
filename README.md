@@ -4,14 +4,14 @@
 
 ## Contribution Guidelines
 
-The **wieldprotocol/contracts** repo follows the
+The **wieldlabs/contracts** repo follows the
 [conventional commits guidelines](https://www.conventionalcommits.org/en/v1.0.0/#summary),
 please be sure to respect them when committing.
 
 When opening a Pull Request and you are not already a core contributor to
-[@wieldprotocol](https://github.com/wieldprotocol), be sure to explain your pull
-request in greater detail so there's less churn when reviewing and we can get
-your changes landed ASAP, thank you!
+[@wieldlabs](https://github.com/wieldlabs), be sure to explain your pull request
+in greater detail so there's less churn when reviewing and we can get your
+changes landed ASAP, thank you!
 
 ### Setup
 
